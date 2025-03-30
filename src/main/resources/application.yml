@@ -1,0 +1,12 @@
+spring:
+
+  data:
+    mongodb:
+      uri: mongodb://mongo:1234@localhost:27017/Mongodb?authSource=admin
+      port: 27017
+      database: Mongodb
+      username: mongo
+      password: 1234
+
+server:
+    port: 5757
